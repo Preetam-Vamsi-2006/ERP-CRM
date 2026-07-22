@@ -1,0 +1,15 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+table tr.low-stock {
+  background-color: #fff5f5;
+}
+
+table tr.low-stock td:first-child {
+  color: #dc3545;
+  font-weight: 500;
+}

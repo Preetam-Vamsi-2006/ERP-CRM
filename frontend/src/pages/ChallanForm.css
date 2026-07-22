@@ -1,0 +1,36 @@
+.add-item-row {
+  display: grid;
+  grid-template-columns: 1fr 120px auto;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-item-row select,
+.add-item-row input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.items-table {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.items-table table {
+  width: 100%;
+}
+
+.items-table button {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.summary {
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: right;
+}
