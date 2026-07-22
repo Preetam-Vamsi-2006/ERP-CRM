@@ -39,7 +39,7 @@ export async function getClient() {
 
 export async function initializeDatabase() {
   try {
-    const result = await query('SELECT NOW()');
+    await query('SELECT NOW()');
     console.log('Database connection successful');
     return true;
   } catch (error) {
